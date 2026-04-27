@@ -1,0 +1,31 @@
+{
+  "experiment_name": "qwen2.5-3b-instruct-v3",
+  "timestamp": "20260426_210514",
+  "config": {
+    "base_model": "Qwen/Qwen2.5-3B",
+    "data_path": "alpaca_data/alpaca_gpt4_data.jsonl",
+    "output_dir": "Qwen2.5-3B-Instruct-Finetuned-v3",
+    "batch_size": 1,
+    "gradient_accumulation": 16,
+    "max_seq_length": 128,
+    "lora_rank": 8,
+    "learning_rate": 0.0002,
+    "num_epochs": 1,
+    "num_samples": 100
+  },
+  "final_metrics": {
+    "step": 50,
+    "loss": 1.83,
+    "grad_norm": null,
+    "learning_rate": 0.0002,
+    "epoch": 1
+  },
+  "evaluations": [
+    {
+      "dataset": "HellaSwag",
+      "metric": "acc",
+      "value": 0.52,
+      "num_samples": 100
+    }
+  ]
+}

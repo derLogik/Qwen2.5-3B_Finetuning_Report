@@ -1,0 +1,12 @@
+{
+  "base_model": "Qwen/Qwen2.5-3B",
+  "data_path": "alpaca_data/alpaca_gpt4_data.jsonl",
+  "output_dir": "Qwen2.5-3B-Instruct-Finetuned-v3",
+  "batch_size": 1,
+  "gradient_accumulation": 16,
+  "max_seq_length": 128,
+  "lora_rank": 8,
+  "learning_rate": 0.0002,
+  "num_epochs": 1,
+  "num_samples": 100
+}
