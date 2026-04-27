@@ -1,0 +1,8 @@
+[
+  {
+    "dataset": "HellaSwag",
+    "metric": "acc",
+    "value": 0.52,
+    "num_samples": 100
+  }
+]
